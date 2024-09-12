@@ -1,4 +1,4 @@
-
+#CSV 파일로 결과 저장
 import pandas as pd
 import numpy as np
 

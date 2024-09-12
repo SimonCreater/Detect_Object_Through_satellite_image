@@ -1,4 +1,4 @@
-
+#ResNet50을 사용해 SAM 모델이 생성한 마스크된 객체를 분류하고 레이블을 부여하는 부분
 import torch
 from PIL import Image
 import requests

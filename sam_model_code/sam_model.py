@@ -1,4 +1,4 @@
-
+#sam 모델 설정 및 마스크 생성
 import sys
 import torch
 import numpy as np
