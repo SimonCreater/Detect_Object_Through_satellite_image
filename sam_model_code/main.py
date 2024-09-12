@@ -50,13 +50,25 @@ def main():
         detected_labels.append(label)
         original_labels.append(original_label)
 
+    # 8% 이상의 비율을 차지하는 마스크를 sea로 라벨링
+    max_percentage = 0
+    max_index = -1
+    for i, percentage in enumerate(mask_percentages):
+        if percentage >= 8 and percentage > max_percentage:
+            max_percentage = percentage
+            max_index = i
+
+    # 가장 큰 비율을 차지하는 객체를 sea로 라벨링
+    if max_index != -1:
+        detected_labels[max_index] = "sea"
+
     # 마스크 중심 좌표 계산
     mask_centers = calculate_mask_centers(masks)
 
     # 결과를 CSV로 저장
     save_to_csv(detected_labels, mask_percentages, mask_centers)
 
-    # 시각화: 마스크 및 레이블 시각화
+    # 시각화: 마스크 및 라벨 시각화
     plt.figure(figsize=(20, 20))
     plt.imshow(image)
     for i, mask in enumerate(masks, 1):
