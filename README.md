@@ -15,5 +15,5 @@ GitHub에서 `segment-anything` 패키지를 설치합니다. 이 명령어는 �
 
 Segment Anything 모델을 사용하기 위해 사전 학습된 모델 가중치 파일을 다운로드해야 합니다.
 
-```bash
+```
 !wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
