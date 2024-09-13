@@ -6,16 +6,12 @@
 
 ### 1. Segment Anything 저장소 설치
 
-GitHub에서 `segment-anything` 패키지를 설치합니다. 이 명령어는 모델 코드와 의존성을 설치합니다.
+GitHub에서 `segment-anything` 패키지를 설치. 이 명령어는 모델 코드와 의존성을 설치
 
 ```bash
 !pip install 'git+https://github.com/facebookresearch/segment-anything.git'
-
-
-
-
-
 ```
-!wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+### 2. 사전 학습된 모델 가중치 다운로드
+Facebook Research에서 제공하는 사전 학습된 모델 가중치를 다운로드
 ```
 !wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
