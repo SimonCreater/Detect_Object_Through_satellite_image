@@ -9,9 +9,19 @@
 GitHub에서 `segment-anything` 패키지를 설치. 이 명령어는 모델 코드와 의존성을 설치
 
 ```bash
-!pip install 'git+https://github.com/facebookresearch/segment-anything.git'
+pip install 'git+https://github.com/facebookresearch/segment-anything.git'
 ```
 ### 2. 사전 학습된 모델 가중치 다운로드
 Facebook Research에서 제공하는 사전 학습된 모델 가중치를 다운로드
 ```
-!wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+```
+### 3. PyTorch 및 Torchvision 설치
+```
+pip install torch torchvision
+
+```
+### 4. 추가 종속성 설치
+```
+pip install opencv-python matplotlib
+
