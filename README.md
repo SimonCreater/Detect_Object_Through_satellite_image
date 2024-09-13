@@ -16,6 +16,11 @@
 
 ```bash
 pip install 'git+https://github.com/facebookresearch/segment-anything.git'
+
 Facebook Research에서 제공하는 사전 학습된 모델 가중치를 다운로드
+
+
 ```bash
 wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
+
+
