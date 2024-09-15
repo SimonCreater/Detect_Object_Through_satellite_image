@@ -26,6 +26,22 @@ pip install torch torchvision
 pip install opencv-python matplotlib
 
 ```
-### 5. 이미지 크로핑
-1.imagerepository 폴더안에 사용자가 특정 이미지 저장.
-2.imagerepository 폴더안에 있는 이미지를 크로핑 하고나면 cropimage_repository안에 저장됨.(여러 개의 이미지가 동시에 저장됨).
+# 이미지 크롭 저장 프로그램
+
+이 프로그램은 `imagerepository` 폴더에 저장된 모든 이미지를 크로핑한 후, 결과물을 `cropimage_repository` 폴더에 저장합니다.
+
+## 5. 이미지 저장
+
+사용자는 `imagerepository` 폴더 안에 이미지를 저장. 여러 개의 이미지를 동시에 넣을 수 있으며, 지원되는 파일 형식은 `.jpg`, `.jpeg`, `.png`.
+
+### 예시
+```bash
+/imagerepository
+    ├── image1.jpg
+    ├── image2.png
+    └── image3.jpeg
+/cropimage_repository
+    ├── cropped_image1.jpg
+    ├── cropped_image2.png
+    └── cropped_image3.jpeg
+
