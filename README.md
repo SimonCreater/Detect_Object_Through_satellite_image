@@ -51,10 +51,14 @@
 - U-Net 논문: [https://arxiv.org/abs/1505.04597](https://arxiv.org/abs/1505.04597)
 - 위성 이미지 처리 관련 연구 및 데이터셋
 
-## 라이선스
 
-본 프로젝트의 데이터 및 코드는 자유롭게 활용 가능하며, 연구 및 교육 목적에 사용할 수 있습니다.
+## train_data 
+<img width="267" alt="image" src="https://github.com/user-attachments/assets/0216fe23-a729-4889-b382-a55d561cf721" />
 
+## test_data 결과
+<img width="566" alt="image" src="https://github.com/user-attachments/assets/f0eb70e3-e97d-476f-917f-83ee44912367" />
+
+## 정확
 
 
 
