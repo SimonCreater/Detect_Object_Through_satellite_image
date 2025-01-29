@@ -58,7 +58,9 @@
 ## test_data 결과
 <img width="566" alt="image" src="https://github.com/user-attachments/assets/f0eb70e3-e97d-476f-917f-83ee44912367" />
 
-## 정확
+## 정확도
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/3695dac0-23d6-40ef-9daa-cde79241bba1" />
+
 
 
 
